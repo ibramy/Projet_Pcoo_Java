@@ -15,44 +15,44 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 //Classe principale du jeu qui hérite d'ApplicationAdapter.
 public class MyGdxGame extends ApplicationAdapter {
  // Gestionnaire de dessins des sprites.
- SpriteBatch batch;
+ protected SpriteBatch batch;
 
  // Textures pour le joueur, les balles, et les aliens.
- Texture img;
- Texture img_bullet;
- Texture img_alien;
+ public Texture img;
+ public Texture img_bullet;
+ public Texture img_alien;
 
  // Objet représentant le joueur.
- Player player;
+ protected Player player;
 
  // Tableau d'objets Alien représentant les ennemis.
- Alien[] aliens;
+ protected Alien[] aliens;
 
  // Paramètres pour configurer les rangées et colonnes des aliens.
- int NumWidth_aliens = 8;
- int NumHeight_aliens = 4;
- int spacing_aliens = 65; // Espacement entre les aliens.
+ public int NumWidth_aliens = 8;
+ public int NumHeight_aliens = 4;
+ public int spacing_aliens = 65; // Espacement entre les aliens.
 
  // Bornes pour les coordonnées des aliens.
- int minX_aliens;
- int minY_aliens;
- int maxX_aliens;
- int maxY_aliens;
+ public int minX_aliens;
+ public int minY_aliens;
+ public int maxX_aliens;
+ public int maxY_aliens;
 
  // Direction et vitesse des aliens.
- int direction_aliens = 1; // 1 pour la droite, -1 pour la gauche.
- float speed_aliens = 90;
+ public int direction_aliens = 1; // 1 pour la droite, -1 pour la gauche.
+ public float speed_aliens = 90;
 
  // Gestion de la carte Tiled.
- TiledMap tiledMap;
- OrthogonalTiledMapRenderer tiledMapRenderer;
- OrthographicCamera camera;
+ public TiledMap tiledMap;
+ public OrthogonalTiledMapRenderer tiledMapRenderer;
+ public OrthographicCamera camera;
 
  // Offset pour déplacer les aliens.
- Vector2 offset_aliens;
+ public Vector2 offset_aliens;
 
  // Indicateur pour vérifier si le joueur est mort.
- boolean playerIsDead = false;
+ public boolean playerIsDead = false;
 
  @Override
  public void create() {
