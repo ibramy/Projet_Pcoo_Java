@@ -1,0 +1,7 @@
+Background.tsx
+Pixel Art Space/Back2.png
+alien.png
+bullet.png
+game_over.jpg
+player.png
+starfield.tmx
