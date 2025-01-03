@@ -24,25 +24,15 @@ public class Alien extends GameEntity{
     // _position : position initiale en tant que vecteur 2D.
     // img : texture utilisée pour créer le sprite.
     public Alien(Vector2 _position, Texture img) {
-        // Initialisation de la position actuelle à partir du paramètre.
         position = _position;
-
-        // Enregistrement de la position initiale.
         position_initial = position;
-
-        // Création du sprite à partir de la texture fournie.
         sprite = new Sprite(img);
-
-        // Mise à l'échelle de l'alien.
         sprite.setScale(4);
     }
 
     // Méthode pour dessiner l'Alien à l'écran.
     public void draw(SpriteBatch batch) {
-        // Positionnement du sprite sur la scène en fonction de la position actuelle.
         sprite.setPosition(position.x, position.y);
-
-        // Dessin du sprite dans le batch.
         sprite.draw(batch);
     }
 }
