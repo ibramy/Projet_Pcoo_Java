@@ -23,7 +23,7 @@ Avec Eclipse :
 1. Ouvrez Eclipse.
 2. Allez dans File > Import....
 3. Sélectionnez Gradle > Existing Gradle Project.
-4. Cliquez sur Next et parcourez le répertoire cloné pour sélectionner le projet ( IL  FAUT SELECTIONNER ET OUVRIR JAVA_PCOO ET PAS PAS PROJET_PCOO_JAVA).
+4. Cliquez sur Next et parcourez le répertoire cloné pour sélectionner le projet ( IL  FAUT SELECTIONNER ET OUVRIR JAVA_PCOO ET PAS PROJET_PCOO_JAVA).
 5. Cliquez sur Finish pour importer le projet.
 6. Appuyer sur PCOO_Game_lwjgl3 puis src/main/java puis le package com.mygdx.game
 7. Enfin clique droit sur Lwjgl3Launcher.java, run as java application
