@@ -28,5 +28,3 @@ Avec Eclipse :
 6. Appuyer sur PCOO_Game_lwjgl3 puis src/main/java puis le package com.mygdx.game
 7. Enfin clique droit sur Lwjgl3Launcher.java, run as java application
 8. Jouer au SpaceShooter
-
-Si il y a un problème vous pouvez toujours me contacter : isabelle.bagramyan@etu.unice.fr
